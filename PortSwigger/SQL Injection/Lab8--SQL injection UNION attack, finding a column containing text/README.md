@@ -8,4 +8,12 @@ This lab contains a SQL injection vulnerability in the product category filter. 
 ## Solution
 - To determine the number of columns use the following payload
     ``` ' UNION SELECT null,null,null -- ```
-    - Only 3 null
+    - Only 3 null returns a valid response otherwise it gives an internal server error
+    - So there is only **3 columns**
+
+- Check which column returns a string 
+    - To check whether the columns contains text or not put random strings instead of null and make the request
+    - Only ``` ' UNION SELECT null,'abc',null -- ``` returns a valid response otherwise its a internal server error
+
+- Return the row with the value provided
+    ``` ' UNION SELECT null,'<value-to-return>',null -- ```
