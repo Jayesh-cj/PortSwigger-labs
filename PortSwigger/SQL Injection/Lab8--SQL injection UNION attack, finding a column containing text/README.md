@@ -1,4 +1,4 @@
-# Lab-8: SQL injection UNION attack, finding a column containing text
+# Lab-8: [SQL injection UNION attack, finding a column containing text](https://portswigger.net/web-security/sql-injection/union-attacks/lab-find-column-containing-text)
 
 This lab contains a SQL injection vulnerability in the product category filter. The results from the query are returned in the application's response, so you can use a UNION attack to retrieve data from other tables. To construct such an attack, you first need to determine the number of columns returned by the query.The next step is to identify a column that is compatible with string data. 
 

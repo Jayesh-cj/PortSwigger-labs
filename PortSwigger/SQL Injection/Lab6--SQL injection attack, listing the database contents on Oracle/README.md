@@ -1,4 +1,4 @@
-# Lab-6: SQL injection attack, listing the database contents on Oracle
+# Lab-6: [SQL injection attack, listing the database contents on Oracle](https://portswigger.net/web-security/sql-injection/examining-the-database/lab-listing-database-contents-oracle)
 
 This lab contains a SQL injection vulnerability in the product category filter. The results from the query are returned in the application's response so you can use a UNION attack to retrieve data from other tables. 
 

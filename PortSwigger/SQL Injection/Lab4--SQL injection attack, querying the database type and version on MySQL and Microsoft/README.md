@@ -1,4 +1,4 @@
-# Lab-4: SQL injection attack, querying the database type and version on MySQL and Microsoft
+# Lab-4: [SQL injection attack, querying the database type and version on MySQL and Microsoft](https://portswigger.net/web-security/sql-injection/examining-the-database/lab-querying-database-version-mysql-microsoft)
 
 This lab contains a SQL injection vulnerability in the product category filter. You can use a UNION attack to retrieve the results from an injected query. 
 
