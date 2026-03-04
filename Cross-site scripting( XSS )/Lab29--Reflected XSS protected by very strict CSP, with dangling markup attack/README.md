@@ -2,7 +2,7 @@
 
 This lab uses a strict CSP that prevents the browser from loading subresources from external domains. 
 
-To solve the lab, perform a form hijacking attack that bypasses the CSP, exfiltrates the simulated victim user's CSRF token, and uses it to authorize changing the email to ``` hacker@evil-user.net ```.
+**Aim :-** To solve the lab, perform a form hijacking attack that bypasses the CSP, exfiltrates the simulated victim user's CSRF token, and uses it to authorize changing the email to ``` hacker@evil-user.net ```.
 
 You must label your vector with the word "Click" in order to induce the simulated user to click it. For example: ``` <a href="">Click me</a> ```.
 
