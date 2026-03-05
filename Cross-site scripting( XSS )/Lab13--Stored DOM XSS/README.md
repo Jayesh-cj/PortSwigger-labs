@@ -1,4 +1,4 @@
-# Lab-13: [Stored DOM XSS](https://portswigger.net/web-security/cross-site-scripting/dom-based/lab-dom-xss-stored)
+# Lab-13: [Stored DOM XSS](https://portswigger.net/web-security/cross-site-scripting/dom-based/lab-dom-xss-stored) 
 
 This lab demonstrates a stored DOM vulnerability in the blog comment functionality.
 
