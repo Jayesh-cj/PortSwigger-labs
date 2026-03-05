@@ -1,4 +1,4 @@
-# Lab-14: [Reflected XSS into HTML context with most tags and attributes blocked](https://portswigger.net/web-security/cross-site-scripting/contexts/lab-html-context-with-most-tags-and-attributes-blocked)
+# Lab-14: [Reflected XSS into HTML context with most tags and attributes blocked](https://portswigger.net/web-security/cross-site-scripting/contexts/lab-html-context-with-most-tags-and-attributes-blocked) 
 
 This lab contains a reflected XSS vulnerability in the search functionality but uses a **web application firewall (WAF)** to protect against common XSS vectors. 
 
