@@ -46,7 +46,7 @@ The database contains a different table called ```users```, with columns called 
     - To check whether the correct character was submitted, need to monitor the time taken for the application to respond to each request. For that configure the Intruder attack to issue requests in a single thread.
         - To do this, click the **Resource pool** tab to open the **Resource pool side panel**.
 
-        - Add the attack to resource pool.
+        - Add the attack to resource pool.  
 
         - Set the **Maximum concurrent requests** to 1
     
