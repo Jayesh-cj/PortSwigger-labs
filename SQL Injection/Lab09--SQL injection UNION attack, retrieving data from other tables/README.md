@@ -12,4 +12,4 @@ The database contains a different table called users, with columns called userna
     ``` ' UNION SELECT username,password FROM users-- ```
     - ``` UNION ``` will combine the select query with filter search query
     - ``` SELECT username,password FROM users ``` Will return all the usernames and passwords from the users table
-    - ``` -- ``` tells SQL to ignore everything after it
+    - ``` -- ``` tells SQL to ignore everything after it  
