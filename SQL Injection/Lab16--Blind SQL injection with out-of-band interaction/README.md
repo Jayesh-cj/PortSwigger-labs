@@ -17,4 +17,4 @@ The SQL query is executed asynchronously and has no effect on the application's 
 
 - Change the ``` BURP-COLLABORATOR-SUBDOMAIN ``` to the **collaborator domain**
 
-- Send the request, The server will make a DNS lookup request to the collaborator server
+- Send the request, The server will make a DNS lookup request to the collaborator server 
