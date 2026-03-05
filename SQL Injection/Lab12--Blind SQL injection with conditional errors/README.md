@@ -54,4 +54,4 @@ The database contains a different table called users, with columns called userna
 
     - Configure the payload **position 1** to **1-20** and payload **position 2** to **0-1** also **a-z**, Start the attack
 
-    - Check for the responses with **500 Status Code** ( Internal Server Error ) retrieve the characters that replaced in the payload **position 2** in the order of 1 - 20 from the payload position 1, combine all the characters will give the password of ``` administrator ```
+    - Check for the responses with **500 Status Code** ( Internal Server Error ) retrieve the characters that replaced in the payload **position 2** in the order of 1 - 20 from the payload position 1, combine all the characters will give the password of ``` administrator ```  
