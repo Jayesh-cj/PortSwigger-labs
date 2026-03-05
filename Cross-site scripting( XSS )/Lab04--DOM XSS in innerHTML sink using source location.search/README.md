@@ -13,4 +13,4 @@ This lab contains a DOM-based cross-site scripting vulnerability in the search b
 
 - The payload will append a ``` <img> ``` tag and try to display an image. The source is not valid so it will force to trigger an ``` onerror ``` event.
 
-- The event forces the server to show an alert box with 123 message in it.
+- The event forces the server to show an alert box with 123 message in it. 
