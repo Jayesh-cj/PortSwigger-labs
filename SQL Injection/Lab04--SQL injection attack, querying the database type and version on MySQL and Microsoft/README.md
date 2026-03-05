@@ -17,4 +17,4 @@ This lab contains a SQL injection vulnerability in the product category filter. 
 - ``` @@version ``` Retrieves the database version.
 - ``` null ``` Is used to match the column numbers, if the column number doesn't match query breaks.
 - ``` -- # ``` Tells SQL to ignore everything after it, So the query will execute like the follow
-    ``` SELECT * FROM products WHERE category = '<category-name>' UNION SELECT @@version, null-- # ```
+    ``` SELECT * FROM products WHERE category = '<category-name>' UNION SELECT @@version, null-- # ``` 
