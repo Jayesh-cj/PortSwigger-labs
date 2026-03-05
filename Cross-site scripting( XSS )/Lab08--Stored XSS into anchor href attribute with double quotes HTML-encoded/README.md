@@ -1,4 +1,4 @@
-# Lab-8: [Stored XSS into anchor href attribute with double quotes HTML-encoded](https://portswigger.net/web-security/cross-site-scripting/contexts/lab-href-attribute-double-quotes-html-encoded)
+# Lab-8: [Stored XSS into anchor href attribute with double quotes HTML-encoded](https://portswigger.net/web-security/cross-site-scripting/contexts/lab-href-attribute-double-quotes-html-encoded) 
 
 This lab contains a stored cross-site scripting vulnerability in the comment functionality. 
 
