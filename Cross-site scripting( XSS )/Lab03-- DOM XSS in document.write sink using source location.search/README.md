@@ -11,4 +11,4 @@ This lab contains a DOM-based cross-site scripting vulnerability in the search q
 
 - Use the following payload ``` "><script>alert(123)</script> ```
 
-- The ``` "> ``` will break the ``` src ``` and append the script to the source code, It will force the server to show an alert box with 123 value.
+- The ``` "> ``` will break the ``` src ``` and append the script to the source code, It will force the server to show an alert box with 123 value. 
