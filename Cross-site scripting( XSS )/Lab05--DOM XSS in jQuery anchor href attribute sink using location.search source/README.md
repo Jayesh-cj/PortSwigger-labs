@@ -25,4 +25,4 @@ This lab contains a DOM-based cross-site scripting vulnerability in the submit f
     - This will make the anchor tag like the following.
     ``` <a id=backLink href="javascript:alert(document.cookie)">Back</a> ```
 
-    - By clicking the ``` Back ``` link on the page the website will popup an alert box with ``` cookie ``` init.
+    - By clicking the ``` Back ``` link on the page the website will popup an alert box with ``` cookie ``` init. 
