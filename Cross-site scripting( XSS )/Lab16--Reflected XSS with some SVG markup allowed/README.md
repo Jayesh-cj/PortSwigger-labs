@@ -1,4 +1,4 @@
-# Lab-16: [Reflected XSS with some SVG markup allowed](https://portswigger.net/web-security/cross-site-scripting/contexts/lab-some-svg-markup-allowed)
+# Lab-16: [Reflected XSS with some SVG markup allowed](https://portswigger.net/web-security/cross-site-scripting/contexts/lab-some-svg-markup-allowed) 
 
 This lab has a simple reflected XSS vulnerability. The site is blocking common tags but misses some SVG tags and events. 
 
