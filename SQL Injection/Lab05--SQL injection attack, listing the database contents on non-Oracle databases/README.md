@@ -23,3 +23,4 @@ The application has a login function, and the database contains a table that hol
 
 - To get the usernames and passwords use the folowing payload
     ``` ' UNION SELECT <username-column>,<password-column> from <users-table-name> -- ```
+ 
