@@ -9,4 +9,4 @@ This lab contains a simple reflected cross-site scripting vulnerability in the s
 ### Solution
 - Search using the following payload : ``` <script>alert(123)</script> ``` 
 
-- The payload will force the webpage to show an alert box with **123**.
+- The payload will force the webpage to show an alert box with **123**. 
