@@ -15,4 +15,4 @@ This lab contains a SQL injection vulnerability in the product category filter. 
 - Add more ``` null ``` to the query and make the request untill it gives a valid response
 
 - Final payload
-    ``` ' UNION SELECT null,null,null-- ```
+    ``` ' UNION SELECT null,null,null-- ```  
