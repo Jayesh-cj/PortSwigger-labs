@@ -1,4 +1,4 @@
-# Lab-17: [Reflected XSS in canonical link tag](https://portswigger.net/web-security/cross-site-scripting/contexts/lab-canonical-link-tag)
+# Lab-17: [Reflected XSS in canonical link tag](https://portswigger.net/web-security/cross-site-scripting/contexts/lab-canonical-link-tag) 
 
 This lab reflects user input in a canonical link tag and escapes angle brackets. 
 
