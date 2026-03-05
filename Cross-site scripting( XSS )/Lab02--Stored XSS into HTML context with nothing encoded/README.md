@@ -5,7 +5,7 @@ This lab contains a stored cross-site scripting vulnerability in the comment fun
 **Aim :-** To solve this lab, submit a comment that calls the alert function when the blog post is viewed. 
 
 
-
+ 
 ### Solution
 - View a post in the application
 
