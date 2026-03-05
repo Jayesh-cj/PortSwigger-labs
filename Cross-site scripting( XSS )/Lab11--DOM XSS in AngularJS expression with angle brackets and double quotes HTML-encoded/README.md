@@ -1,4 +1,4 @@
-# Lab-11: [DOM XSS in AngularJS expression with angle brackets and double quotes HTML-encoded](https://portswigger.net/web-security/cross-site-scripting/dom-based/lab-angularjs-expression)
+# Lab-11: [DOM XSS in AngularJS expression with angle brackets and double quotes HTML-encoded](https://portswigger.net/web-security/cross-site-scripting/dom-based/lab-angularjs-expression) 
 
 This lab contains a DOM-based cross-site scripting vulnerability in a AngularJS expression within the search functionality. 
 
