@@ -21,4 +21,4 @@ For example: ``` UNION SELECT 'abc' FROM dual ```
     **Explanation**
         - ``` null ``` Is used to match the number of columns returned by the original query.
         - ``` banner ``` Contains database version and platform details.
-        - ``` v$version ``` A system view in Oracle databases that stores version information.
+        - ``` v$version ``` A system view in Oracle databases that stores version information. 
