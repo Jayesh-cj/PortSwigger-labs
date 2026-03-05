@@ -21,4 +21,4 @@ The results of the SQL query are not returned, and the application does not resp
     
     - ``` pg_sleep(10) ``` Tells to **wait for 10 second** to execute the query
 
-    - ``` -- ``` Tells to ignore the rest of the query
+    - ``` -- ``` Tells to ignore the rest of the query 
