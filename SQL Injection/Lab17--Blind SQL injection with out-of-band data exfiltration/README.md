@@ -21,4 +21,4 @@ The database contains a different table called ```users```, with columns called 
 - Change the ``` BURP-COLLABORATOR-SUBDOMAIN ``` to the **collaborator sub-domain** and make the request
 
 - Go to the **collaborator** and check for the **HTTP** requests, it will contain the ``` administrator ``` password 
-    - The request will look like ( ``` password.collaborator-subdomain ``` ).
+    - The request will look like ( ``` password.collaborator-subdomain ``` ).  
