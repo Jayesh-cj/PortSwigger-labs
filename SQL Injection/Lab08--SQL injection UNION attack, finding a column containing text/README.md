@@ -16,4 +16,4 @@ This lab contains a SQL injection vulnerability in the product category filter. 
     - Only ``` ' UNION SELECT null,'abc',null -- ``` returns a valid response otherwise its a internal server error
 
 - Return the row with the value provided
-    ``` ' UNION SELECT null,'<value-to-return>',null -- ```
+    ``` ' UNION SELECT null,'<value-to-return>',null -- ```  
