@@ -23,7 +23,7 @@ The blog page for this lab contains a hidden blog post that has a secret passwor
 {"query": "{__schema{types{name,fields{name}}}}"}
 ```
 
-- The server respond with the database schema, it shows that there is a field named ``` postPassword ```.
+- The server respond with the API schema, it shows that there is a field named ``` postPassword ```.
 
 - If gone to the bottom of the response can see the querys also.
 ```
